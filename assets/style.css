@@ -31,6 +31,10 @@ html {
 
 body {
     background-color: var(--bg-color);
+    background-image: url('/assets/images/20250226-2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     line-height: 1.6;
     font-size: var(--font-size);
     color: var(--font-color);
@@ -43,7 +47,7 @@ body {
 body.dark {
     --bg-color: #0c0c0c;
     --bg-secondary-color: #131316;
-    --font-color: #f5f5f5;
+    --font-color: #0c0c0c;
     --color-grey: #ccc;
 }
 

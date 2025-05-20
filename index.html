@@ -36,7 +36,7 @@
             --pisces-color: #BEBDA7;
             --dark-color: #1A1C22;
             --light-color: #ffffff;
-            --card-bg: rgba(26, 28, 34, 0.7);
+            --card-bg: rgba(26, 28, 34, 0.1);
             --card-border: rgba(156, 166, 187, 0.2);
         }
         
@@ -353,7 +353,7 @@
             width: 100%;
             max-width: 450px;
             background: var(--card-bg);
-            backdrop-filter: blur(20px);
+            backdrop-filter: blur(0px);
             border: 1px solid var(--card-border);
             border-radius: 0;
             padding: 2.5rem;
@@ -1213,42 +1213,6 @@
             transform-style: preserve-3d;
         }
         
-        /* Light mode support */
-        @media (prefers-color-scheme: light) {
-            :root {
-                --dark-color: #F5F7FA;
-                --light-color: #2b2d35;
-                --card-bg: rgba(245, 247, 250, 0.8);
-                --card-border: rgba(156, 166, 187, 0.3);
-            }
-            
-            .bg {
-                background: linear-gradient(125deg, #E4E8F0, #ffffff);
-            }
-            
-            .loading-screen {
-                background: #F5F7FA;
-            }
-            
-            .link, .social-icon {
-                background: rgba(0, 0, 0, 0.05);
-                border-color: rgba(0, 0, 0, 0.1);
-            }
-            
-            .link:hover, .social-icon:hover {
-                background: rgba(0, 0, 0, 0.08);
-                border-color: rgba(0, 0, 0, 0.15);
-            }
-            
-            .bio {
-                color: rgba(19, 24, 34, 0.8);
-            }
-            
-            footer {
-                color: rgba(19, 24, 34, 0.5);
-            }
-        }
-        
         /* Media Queries for Responsiveness */
         @media (max-width: 768px) {
             .card {
@@ -1444,7 +1408,7 @@
                     <div class="link-item">
                         <a href="https://www.tiktok.com/@seira_0311" class="link">
                             <div class="link-icon" style="background: black; display: flex; align-items: center; justify-content: center; padding: 8px; border-radius: 4px;">
-                                <img src="https://cdn.pixabay.com/photo/2022/02/09/08/35/tiktok-7002882_640.png" alt="TikTok logo" style="width: 26px; height: 26px;">
+                                <img src="images/tiktok.svg" alt="TikTok logo" style="width: 26px; height: 26px;">
                             </div>
                             <span class="link-text">聖ゐ桜 / seira</span>
                         </a>
